@@ -1,0 +1,155 @@
+* {
+    padding:0;
+    margin:0;
+  }
+#menu{
+  list-style-type: none;
+  background-color: rgb(175, 173, 173);
+}
+#menu li {
+display: inline;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+#menu li a {
+    display: inline;
+    padding:  20px;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menu li a:hover {
+    background-color: deepskyblue;
+}
+#texto h1{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#texto p{
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: center;
+    margin: 0;
+    text-indent: 3ch;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#texto h4{
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#rodape{
+    
+    padding-top: 15px;
+    background-color: black;
+    height: 250px;
+}
+#rodape p {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#facebook{
+    text-align: center;
+    
+}
+#instagram{
+    text-align: center;
+}
+#contato h1{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contato h3{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+}
+#endereco{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+#endereco h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+
+}
+#principal h1{
+    text-align: center;
+}
+.galeria {
+    margin: 10px auto;
+    width: 500px;
+    height: 400px;
+   overflow: hidden;
+    position: relative;
+  }
+  
+  .foto {
+    position: absolute;
+    animation: animacao infinite 20s;
+    opacity: 0;
+  }
+  
+  @keyframes animacao {
+    25% {
+      opacity: 1;
+         transform: scale(1.1,1.1);
+    }
+   50% {
+      opacity: 0;
+         
+    }
+  }
+  
+  .foto:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .foto:nth-child(2) {
+    animation-delay: 5s;
+  }
+  
+  .foto:nth-child(3) {
+    animation-delay: 10s;
+  }
+  
+  .foto:nth-child(4) {
+    animation-delay: 15s;
+  }
+  .marca{
+    text-align: center;
+   }
+@media only screen and (max-device-width: 900px) {
+  /* .menu { width:100%; } */
+  }
+.hora p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.contatonum p{
+  line-height: 15px;
+}
+main{
+  margin: auto;
+  min-width: 280px;
+  max-width: 1400px;
+  
+}
+main img{
+  max-width: 100%;
+  
+}
+head{
+  margin: auto;
+  min-width: 280px;
+}
+
